@@ -2,7 +2,7 @@
   "name": "Deploy Ghost V5 on Heroku",
   "description": "Deploy latest Ghost v5 on Heroku",
   "logo": "https://ghost.org/images/docs/logos/ghost-logo-orb.png",
-  "repository": "https://github.com/perpetuallight/ghost-v5-on-heroku",
+  "repository": "https://github.com/HelmmDev/ghost-v5-on-heroku.git",
   "scripts": {
     "postdeploy": "bin/init-deployment"
   },
