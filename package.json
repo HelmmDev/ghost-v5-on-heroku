@@ -1,6 +1,6 @@
 {
   "name": "ghost-v5-on-heroku",
-  "version": "5.2.3",
+  "version": "5.92.0",
   "description": "Deploy latest ghost v5 on Heroku",
   "main": "thelovekesh.js",
   "repository": {
@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/HelmmDev/ghost-v5-on-heroku.git#readme",
   "engines": {
-    "node": "14.X"
+    "node": "^18.12.1 || ^20.11.1"
   },
   "dependencies": {
     "casper": "github:TryGhost/Casper#main",
-    "ghost": "5.2.3",
+    "ghost": "5.92.0",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.1.5",
     "lyra": "github:TryGhost/lyra#main",
