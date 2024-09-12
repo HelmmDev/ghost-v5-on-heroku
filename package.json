@@ -1,11 +1,11 @@
 {
   "name": "ghost-v5-on-heroku",
-  "version": "5.92.0",
+  "version": "5.2.3",
   "description": "Deploy latest ghost v5 on Heroku",
   "main": "thelovekesh.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HelmmDev/ghost-v5-on-heroku.git"
+    "url": "git+https://github.com/perpetuallight/ghost-v5-on-heroku.git"
   },
   "keywords": [
     "ghost",
@@ -17,17 +17,17 @@
   "bugs": {
     "url": "https://github.com/perpetuallight/ghost-v5-on-heroku/issues"
   },
-  "homepage": "https://github.com/HelmmDev/ghost-v5-on-heroku.git#readme",
+  "homepage": "https://github.com/perpetuallight/ghost-v5-on-heroku#readme",
   "engines": {
-    "node": "^18.12.1 || ^20.11.1"
+    "node": "14.X"
   },
   "dependencies": {
     "casper": "github:TryGhost/Casper#main",
-    "ghost": "5.92.0",
+    "ghost": "5.2.3",
     "ghost-storage-adapter-s3": "^2.8.0",
-    "ghost-storage-cloudinary": "^3.0.0",
+    "ghost-storage-cloudinary": "^2.1.5",
     "lyra": "github:TryGhost/lyra#main",
-    "mysql2": "3.11.2"
+    "mysql2": "2.3.3"
   },
   "scripts": {
     "start": "node thelovekesh.js",
