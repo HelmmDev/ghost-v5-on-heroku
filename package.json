@@ -25,9 +25,9 @@
     "casper": "github:TryGhost/Casper#main",
     "ghost": "5.92.0",
     "ghost-storage-adapter-s3": "^2.8.0",
-    "ghost-storage-cloudinary": "^2.1.5",
+    "ghost-storage-cloudinary": "^3.0.0",
     "lyra": "github:TryGhost/lyra#main",
-    "mysql2": "2.3.3"
+    "mysql2": "3.11.2"
   },
   "scripts": {
     "start": "node thelovekesh.js",
